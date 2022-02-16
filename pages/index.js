@@ -118,6 +118,7 @@ export default class BankIndex extends Component {
                         <Grid.Column width={5} style={{marginRight: '50px'}}>
                             <Form success onSubmit={this.onDeposit} error={!!this.state.errorMessageD}>
                                 <Form.Field>
+                                    <p>Minimum Amount of tokens deposit - 10</p>
                                     <Input
                                         label="Gwei"
                                         labelPosition="right"
